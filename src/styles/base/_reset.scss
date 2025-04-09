@@ -1,0 +1,45 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+/* Correction des tailles de police */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* Suppression du style des listes */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Suppression des styles par défaut des boutons et liens */
+button,
+input,
+textarea {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* Suppression du soulignement des liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Correction des images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

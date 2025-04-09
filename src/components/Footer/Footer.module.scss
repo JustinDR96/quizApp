@@ -1,0 +1,12 @@
+.wrapper {
+  height: 80px;
+  color: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.title {
+  font-size: 25px;
+}
